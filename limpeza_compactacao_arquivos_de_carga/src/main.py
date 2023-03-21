@@ -28,11 +28,18 @@ logger.setLevel(logging.DEBUG)
 #----------------------------------------------------------------------------
 #Funcoes
 #----------------------------------------------------------------------------
-def geraLista(comando,arquivo):
+def gera_lista(comando,arquivo):
     os.system(comando)
     abre_arquivo = open(arquivo)
-    gera_lista = abre_arquivo.readlines()
-    lista =[line.strip('\n').strip() for line in gera_lista]
+    geralista = abre_arquivo.readlines()
+    lista =[line.strip('\n').strip() for line in geralista]
     return lista
+
+def gera_lista_clientes():
+    lista_clientes = gera_lista("ls -h /dados/autorize > clientes.txt","clientes.txt") 
+    return lista_clientes
+
+
+    
 
  
