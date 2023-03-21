@@ -8,3 +8,9 @@
 #----------------------------------------------------------------------------
 """ Criado para realizar a limpeza e compactação dos arquivos de carga da solução autorize (/dados/autorize/) """
 #----------------------------------------------------------------------------
+#imports
+#----------------------------------------------------------------------------
+import os
+import subprocess
+import string
+import logging
