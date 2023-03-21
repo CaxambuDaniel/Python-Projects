@@ -40,6 +40,12 @@ def gera_lista_clientes():
     lista_clientes = gera_lista("ls -h /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/ > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt","/workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt") 
     return lista_clientes
 
+def gera_lista_qtd_dir(lista_clientes):
+    for cliente in lista_clientes:
+        checa_qtd_diretorios(cliente) 
+
+
+
 def compacta_arquivos_carga(lista_clientes):
     for cliente in lista_clientes:
         data_ontem = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
