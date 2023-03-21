@@ -46,11 +46,11 @@ def gera_lista_qtd_dir(lista_clientes):
 
 def checa_qtd_diretorios(cliente):
     ano_atual = datetime.now().strftime("%Y")
-    qtd_dir = int(subprocess.check_output(f"ls -hd /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/{cliente}/{ano_atual}*/ | wc -l", shell = True))
-    return qtd_dir
-    if  qtd_diretorios >  2:
-        lista_qtd_dir = geraLista("find /dados/autorize/"+operadora+"/`date +%Y`* -type d  -mtime -365 -ls| rev | cut -d'-' -f 1 | rev   > qtd_dir.txt","qtd_dir.txt")       
-        deletaDirMin(operadora,lista_qtd_dir)    
+    qtd_dir = int(subprocess.check_output(f"ls -hd /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/{cliente}/{ano_atual}*/ | wc -l", shell = True))    
+    if  qtd_dir >  2:
+        lista_qtd_dir = gera_lista(f"find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/{cliente}/`date +%Y`* -type d  -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt","/workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt")       
+        print(lista_qtd_dir)
+        deleta_dir_min(cliente,lista_qtd_dir) 
 
 def compacta_arquivos_carga(lista_clientes):
     for cliente in lista_clientes:
@@ -66,12 +66,18 @@ def compacta_arquivos_carga(lista_clientes):
         else:
             os.system(f"find {dir_hoje} -type f ! -iname '*.gz' -exec gzip -f {{}} \\;")
 
+def deleta_dir_min(cliente,lista_qtd_dir):    
+    if lista_qtd_dir:
+        os.system(f"rm -r /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/{cliente}/*{min(lista_qtd_dir)}")
+    else:
+        print(f"Lista vazia para o cliente {cliente}")
 
 
 
 lista_clientes = gera_lista_clientes()
 compacta_arquivos_carga(lista_clientes)
+gera_lista_qtd_dir(lista_clientes)
 
     
 
- 
+    
