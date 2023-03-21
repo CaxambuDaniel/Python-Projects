@@ -23,7 +23,7 @@ if not os.path.exists(root_dir):
 
 # Percorre a lista de clientes
 for client in CLIENTS:
-    client_dir = os.path.join(root_dir, "tests", "cllientes", client)
+    client_dir = os.path.join(root_dir, "tests", "clientes", client)
     
     # Cria o diretório do cliente se ainda não existir
     if not os.path.exists(client_dir):
