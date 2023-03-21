@@ -44,7 +44,13 @@ def gera_lista_qtd_dir(lista_clientes):
     for cliente in lista_clientes:
         checa_qtd_diretorios(cliente) 
 
-
+def checa_qtd_diretorios(cliente):
+    ano_atual = datetime.now().strftime("%Y")
+    qtd_dir = int(subprocess.check_output(f"ls -hd /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/{cliente}/{ano_atual}*/ | wc -l", shell = True))
+    return qtd_dir
+    if  qtd_diretorios >  2:
+        lista_qtd_dir = geraLista("find /dados/autorize/"+operadora+"/`date +%Y`* -type d  -mtime -365 -ls| rev | cut -d'-' -f 1 | rev   > qtd_dir.txt","qtd_dir.txt")       
+        deletaDirMin(operadora,lista_qtd_dir)    
 
 def compacta_arquivos_carga(lista_clientes):
     for cliente in lista_clientes:
