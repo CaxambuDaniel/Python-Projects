@@ -14,3 +14,15 @@ import os
 import subprocess
 import string
 import logging
+#----------------------------------------------------------------------------
+#Criando e  configurando logger
+#----------------------------------------------------------------------------
+logging.basicConfig(filename="limpeza_compactacao_carga.log",
+                    format="%(levelname)s %(asctime)s - %(message)s",
+                    filemode='a')
+#Criando um logger                    
+logger = logging.getLogger()
+
+#setando o threshold de logger para DEBUG
+logger.setLevel(logging.DEBUG)
+
