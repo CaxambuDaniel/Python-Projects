@@ -6,7 +6,7 @@
 #Last Update: 21/03/2023
 # Version: '1.0'
 #----------------------------------------------------------------------------
-""" Criado para realizar a limpeza e compactação dos arquivos de carga da solução autorize (/dados/autorize/) """
+""" Criado para realizar a limpeza e compactação dos arquivos de carga da solução autorize """
 #----------------------------------------------------------------------------
 #imports
 #----------------------------------------------------------------------------
@@ -17,7 +17,7 @@ import logging
 #----------------------------------------------------------------------------
 #Criando e  configurando logger
 #----------------------------------------------------------------------------
-logging.basicConfig(filename="limpeza_compactacao_carga.log",
+logging.basicConfig(filename="/workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/log/limpeza_compactacao_carga.log",
                     format="%(levelname)s %(asctime)s - %(message)s",
                     filemode='a')
 #Criando um logger                    
@@ -36,10 +36,11 @@ def gera_lista(comando,arquivo):
     return lista
 
 def gera_lista_clientes():
-    lista_clientes = gera_lista("ls -h /dados/autorize > clientes.txt","clientes.txt") 
+    lista_clientes = gera_lista("ls -h /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/ > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt","/workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt") 
     return lista_clientes
 
 
+gera_lista_clientes()
     
 
  
