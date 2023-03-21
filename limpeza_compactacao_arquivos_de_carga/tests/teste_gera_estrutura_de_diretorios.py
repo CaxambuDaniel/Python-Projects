@@ -32,7 +32,7 @@ for client in CLIENTS:
     # Percorre os últimos NUM_DAYS dias, incluindo a data de hoje
     for i in range(NUM_DAYS):
         current_date = today - timedelta(days=i)
-        current_date_dir = current_date.strftime("%Y/%m/%d")
+        current_date_dir = current_date.strftime("%Y-%m-%d")
         current_date_full_dir = os.path.join(client_dir, current_date_dir)
         
         # Cria o diretório da data se ainda não existir
