@@ -1,0 +1,6 @@
+Requerimentos para utilização do código 
+libs python:
+    os
+    subprocess
+    string
+    logging  
