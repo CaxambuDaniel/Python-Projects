@@ -25,4 +25,14 @@ logger = logging.getLogger()
 
 #setando o threshold de logger para DEBUG
 logger.setLevel(logging.DEBUG)
+#----------------------------------------------------------------------------
+#Funcoes
+#----------------------------------------------------------------------------
+def geraLista(comando,arquivo):
+    os.system(comando)
+    abre_arquivo = open(arquivo)
+    gera_lista = abre_arquivo.readlines()
+    lista =[line.strip('\n').strip() for line in gera_lista]
+    return lista
 
+ 
