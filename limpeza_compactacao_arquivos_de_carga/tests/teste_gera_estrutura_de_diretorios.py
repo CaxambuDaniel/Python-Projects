@@ -1,25 +1,50 @@
 import os
-from datetime import datetime, timedelta
+from datetime import date, timedelta
 
-# Define os clientes do projeto
-clientes = ["cliente01", "cliente02", "cliente03", "cliente04", "cliente05"]
+# Nome do diretório raiz
+ROOT_DIR = ".."
 
-# Define as datas para criação dos arquivos de carga
-hoje = datetime.now()
-ontem = hoje - timedelta(days=1)
-anteontem = hoje - timedelta(days=2)
-datas = [hoje, ontem, anteontem]
+# Lista de clientes
+CLIENTS = ["cliente01", "cliente02", "cliente03", "cliente04", "cliente05"]
 
-# Define o diretório raiz do projeto
-projeto = "limpeza_compactacao_arquivos_de_carga"
-tests_dir = os.path.join(projeto, "tests")
+# Número de dias para gerar pastas com datas
+NUM_DAYS = 3
 
-# Cria a estrutura de diretórios e arquivos para cada cliente e cada data
-for cliente in clientes:
-    cliente_dir = os.path.join(tests_dir, "clientes", cliente)
-    for data in datas:
-        data_dir = os.path.join(cliente_dir, data.strftime("%Y/%m/%d"))
-        os.makedirs(data_dir, exist_ok=True)
-        for i in range(1, 6):
-            arquivo = f"arquivo_de_carga{i:02d}.txt"
-            open(os.path.join(data_dir, arquivo), "a").close()
+# Data de hoje
+today = date.today()
+
+# Diretório de testes
+tests_dir = os.path.abspath(os.path.dirname(__file__))
+
+# Cria o diretório raiz se ainda não existir
+root_dir = os.path.join(tests_dir, ROOT_DIR)
+if not os.path.exists(root_dir):
+    os.makedirs(root_dir)
+
+# Percorre a lista de clientes
+for client in CLIENTS:
+    client_dir = os.path.join(root_dir, "tests", "cllientes", client)
+    
+    # Cria o diretório do cliente se ainda não existir
+    if not os.path.exists(client_dir):
+        os.makedirs(client_dir)
+    
+    # Percorre os últimos NUM_DAYS dias, incluindo a data de hoje
+    for i in range(NUM_DAYS):
+        current_date = today - timedelta(days=i)
+        current_date_dir = current_date.strftime("%Y/%m/%d")
+        current_date_full_dir = os.path.join(client_dir, current_date_dir)
+        
+        # Cria o diretório da data se ainda não existir
+        if not os.path.exists(current_date_full_dir):
+            os.makedirs(current_date_full_dir)
+            
+        # Cria 5 arquivos de carga na pasta
+        for j in range(1, 6):
+            file_name = f"arquivo_de_carga{j:02d}.txt"
+            file_path = os.path.join(current_date_full_dir, file_name)
+            
+            with open(file_path, "w") as f:
+                f.write(f"Conteúdo do arquivo {file_name}")
+                
+print("Estrutura de diretórios e arquivos criada com sucesso!")
