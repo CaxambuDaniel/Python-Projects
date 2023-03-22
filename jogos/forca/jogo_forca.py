@@ -10,7 +10,7 @@ def carrega_palavra_secreta():
     # Carrega palavras de um arquivo de texto chamado 'palavras.txt'
     # e escolhe uma palavra aleatória do arquivo como a palavra secreta
 
-    with open('palavras.txt', 'r') as arquivo:
+    with open('/workspaces/Projetos_Python/jogos/forca/palavras.txt', 'r') as arquivo:
         palavras =[]
         for linha in arquivo:
             linha = linha.strip()
