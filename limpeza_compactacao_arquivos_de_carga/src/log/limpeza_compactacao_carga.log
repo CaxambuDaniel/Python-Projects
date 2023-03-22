@@ -1,0 +1,236 @@
+DEBUG 2023-03-22 12:13:11,198 - Gerando lista com comando: ls -h /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/ > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt
+DEBUG 2023-03-22 12:13:11,201 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 12:13:11,227 - Checando quantidade de diretórios para o cliente: cliente01
+DEBUG 2023-03-22 12:13:11,241 - Checando quantidade de diretórios para o cliente: cliente02
+DEBUG 2023-03-22 12:13:11,244 - Checando quantidade de diretórios para o cliente: cliente03
+DEBUG 2023-03-22 12:13:11,247 - Checando quantidade de diretórios para o cliente: cliente04
+DEBUG 2023-03-22 12:13:11,251 - Checando quantidade de diretórios para o cliente: cliente05
+DEBUG 2023-03-22 12:39:07,983 - Gerando lista com comando: ls -h /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/ > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt
+DEBUG 2023-03-22 12:39:07,985 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 12:39:08,091 - Checando quantidade de diretórios para o cliente: cliente01
+DEBUG 2023-03-22 12:39:08,091 - Checando quantidade de diretórios para o cliente: cliente01
+INFO 2023-03-22 12:39:08,102 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:39:08,102 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:39:08,114 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:39:08,118 - Checando quantidade de diretórios para o cliente: cliente02
+DEBUG 2023-03-22 12:39:08,118 - Checando quantidade de diretórios para o cliente: cliente02
+INFO 2023-03-22 12:39:08,121 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:39:08,121 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:39:08,126 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:39:08,130 - Checando quantidade de diretórios para o cliente: cliente03
+DEBUG 2023-03-22 12:39:08,130 - Checando quantidade de diretórios para o cliente: cliente03
+INFO 2023-03-22 12:39:08,133 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:39:08,133 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:39:08,137 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:39:08,141 - Checando quantidade de diretórios para o cliente: cliente04
+DEBUG 2023-03-22 12:39:08,141 - Checando quantidade de diretórios para o cliente: cliente04
+INFO 2023-03-22 12:39:08,143 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:39:08,143 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:39:08,148 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:39:08,161 - Checando quantidade de diretórios para o cliente: cliente05
+DEBUG 2023-03-22 12:39:08,162 - Checando quantidade de diretórios para o cliente: cliente05
+INFO 2023-03-22 12:39:08,164 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:39:08,164 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:39:08,168 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:51:37,356 - Gerando lista com comando: ls -h /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/ > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt
+DEBUG 2023-03-22 12:51:37,359 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 12:51:37,359 - Iniciando compactação de arquivos para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 12:51:37,359 - Compactando arquivos para o cliente: cliente01
+DEBUG 2023-03-22 12:51:37,359 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-21
+DEBUG 2023-03-22 12:51:37,367 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-22
+DEBUG 2023-03-22 12:51:37,377 - Compactando arquivos para o cliente: cliente02
+DEBUG 2023-03-22 12:51:37,377 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-21
+DEBUG 2023-03-22 12:51:37,388 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-22
+DEBUG 2023-03-22 12:51:37,399 - Compactando arquivos para o cliente: cliente03
+DEBUG 2023-03-22 12:51:37,399 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-21
+DEBUG 2023-03-22 12:51:37,410 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-22
+DEBUG 2023-03-22 12:51:37,421 - Compactando arquivos para o cliente: cliente04
+DEBUG 2023-03-22 12:51:37,421 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-21
+DEBUG 2023-03-22 12:51:37,430 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-22
+DEBUG 2023-03-22 12:51:37,441 - Compactando arquivos para o cliente: cliente05
+DEBUG 2023-03-22 12:51:37,441 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-21
+DEBUG 2023-03-22 12:51:37,450 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-22
+INFO 2023-03-22 12:51:37,466 - Compactação de arquivos concluída para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 12:51:37,466 - Checando quantidade de diretórios para o cliente: cliente01
+DEBUG 2023-03-22 12:51:37,466 - Checando quantidade de diretórios para o cliente: cliente01
+INFO 2023-03-22 12:51:37,469 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:51:37,469 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:51:37,474 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:51:37,477 - Checando quantidade de diretórios para o cliente: cliente02
+DEBUG 2023-03-22 12:51:37,477 - Checando quantidade de diretórios para o cliente: cliente02
+INFO 2023-03-22 12:51:37,479 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:51:37,480 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:51:37,485 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:51:37,489 - Checando quantidade de diretórios para o cliente: cliente03
+DEBUG 2023-03-22 12:51:37,489 - Checando quantidade de diretórios para o cliente: cliente03
+INFO 2023-03-22 12:51:37,491 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:51:37,491 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:51:37,496 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:51:37,513 - Checando quantidade de diretórios para o cliente: cliente04
+DEBUG 2023-03-22 12:51:37,514 - Checando quantidade de diretórios para o cliente: cliente04
+INFO 2023-03-22 12:51:37,516 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:51:37,516 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:51:37,521 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:51:37,524 - Checando quantidade de diretórios para o cliente: cliente05
+DEBUG 2023-03-22 12:51:37,524 - Checando quantidade de diretórios para o cliente: cliente05
+INFO 2023-03-22 12:51:37,527 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:51:37,527 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:51:37,532 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:59:02,076 - Gerando lista com comando: ls -h /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/ > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt
+DEBUG 2023-03-22 12:59:02,079 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 12:59:02,079 - Iniciando compactação de arquivos para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 12:59:02,079 - Compactando arquivos para o cliente: cliente01
+DEBUG 2023-03-22 12:59:02,079 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-21
+DEBUG 2023-03-22 12:59:02,090 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-22
+DEBUG 2023-03-22 12:59:02,101 - Compactando arquivos para o cliente: cliente02
+DEBUG 2023-03-22 12:59:02,101 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-21
+DEBUG 2023-03-22 12:59:02,112 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-22
+DEBUG 2023-03-22 12:59:02,123 - Compactando arquivos para o cliente: cliente03
+DEBUG 2023-03-22 12:59:02,123 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-21
+DEBUG 2023-03-22 12:59:02,132 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-22
+DEBUG 2023-03-22 12:59:02,143 - Compactando arquivos para o cliente: cliente04
+DEBUG 2023-03-22 12:59:02,143 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-21
+DEBUG 2023-03-22 12:59:02,151 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-22
+DEBUG 2023-03-22 12:59:02,163 - Compactando arquivos para o cliente: cliente05
+DEBUG 2023-03-22 12:59:02,163 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-21
+DEBUG 2023-03-22 12:59:02,171 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-22
+INFO 2023-03-22 12:59:02,183 - Compactação de arquivos concluída para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 12:59:02,183 - Checando quantidade de diretórios para o cliente: cliente01
+DEBUG 2023-03-22 12:59:02,183 - Checando quantidade de diretórios para o cliente: cliente01
+INFO 2023-03-22 12:59:02,186 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:59:02,186 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:59:02,191 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:59:02,191 - Deletando o diretório mínimo para o cliente: cliente01
+DEBUG 2023-03-22 12:59:02,191 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 12:59:02,205 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/*20
+DEBUG 2023-03-22 12:59:02,206 - Checando quantidade de diretórios para o cliente: cliente02
+DEBUG 2023-03-22 12:59:02,206 - Checando quantidade de diretórios para o cliente: cliente02
+INFO 2023-03-22 12:59:02,208 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:59:02,208 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:59:02,213 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:59:02,213 - Deletando o diretório mínimo para o cliente: cliente02
+DEBUG 2023-03-22 12:59:02,213 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 12:59:02,225 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/*20
+DEBUG 2023-03-22 12:59:02,226 - Checando quantidade de diretórios para o cliente: cliente03
+DEBUG 2023-03-22 12:59:02,226 - Checando quantidade de diretórios para o cliente: cliente03
+INFO 2023-03-22 12:59:02,229 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:59:02,229 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:59:02,234 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:59:02,234 - Deletando o diretório mínimo para o cliente: cliente03
+DEBUG 2023-03-22 12:59:02,234 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 12:59:02,245 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/*20
+DEBUG 2023-03-22 12:59:02,246 - Checando quantidade de diretórios para o cliente: cliente04
+DEBUG 2023-03-22 12:59:02,246 - Checando quantidade de diretórios para o cliente: cliente04
+INFO 2023-03-22 12:59:02,248 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:59:02,248 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:59:02,257 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:59:02,257 - Deletando o diretório mínimo para o cliente: cliente04
+DEBUG 2023-03-22 12:59:02,257 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 12:59:02,261 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/*20
+DEBUG 2023-03-22 12:59:02,261 - Checando quantidade de diretórios para o cliente: cliente05
+DEBUG 2023-03-22 12:59:02,262 - Checando quantidade de diretórios para o cliente: cliente05
+INFO 2023-03-22 12:59:02,264 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 12:59:02,264 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 12:59:02,269 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 12:59:02,270 - Deletando o diretório mínimo para o cliente: cliente05
+DEBUG 2023-03-22 12:59:02,270 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 12:59:02,276 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/*20
+DEBUG 2023-03-22 13:05:28,712 - Iniciando o processo de limpeza e compactação de arquivos de carga
+DEBUG 2023-03-22 13:05:28,712 - Gerando lista com comando: ls -h /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/ > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt
+DEBUG 2023-03-22 13:05:28,714 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:05:28,714 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:05:28,714 - Iniciando compactação de arquivos para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:05:28,715 - Compactando arquivos para o cliente: cliente01
+DEBUG 2023-03-22 13:05:28,715 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-21
+DEBUG 2023-03-22 13:05:28,717 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-22
+DEBUG 2023-03-22 13:05:28,719 - Compactando arquivos para o cliente: cliente02
+DEBUG 2023-03-22 13:05:28,719 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-21
+DEBUG 2023-03-22 13:05:28,721 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-22
+DEBUG 2023-03-22 13:05:28,722 - Compactando arquivos para o cliente: cliente03
+DEBUG 2023-03-22 13:05:28,723 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-21
+DEBUG 2023-03-22 13:05:28,724 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-22
+DEBUG 2023-03-22 13:05:28,726 - Compactando arquivos para o cliente: cliente04
+DEBUG 2023-03-22 13:05:28,726 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-21
+DEBUG 2023-03-22 13:05:28,728 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-22
+DEBUG 2023-03-22 13:05:28,730 - Compactando arquivos para o cliente: cliente05
+DEBUG 2023-03-22 13:05:28,730 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-21
+DEBUG 2023-03-22 13:05:28,732 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-22
+INFO 2023-03-22 13:05:28,734 - Compactação de arquivos concluída para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:05:28,734 - Checando quantidade de diretórios para o cliente: cliente01
+DEBUG 2023-03-22 13:05:28,734 - Checando quantidade de diretórios para o cliente: cliente01
+INFO 2023-03-22 13:05:28,737 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:05:28,737 - Checando quantidade de diretórios para o cliente: cliente02
+DEBUG 2023-03-22 13:05:28,737 - Checando quantidade de diretórios para o cliente: cliente02
+INFO 2023-03-22 13:05:28,740 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:05:28,740 - Checando quantidade de diretórios para o cliente: cliente03
+DEBUG 2023-03-22 13:05:28,740 - Checando quantidade de diretórios para o cliente: cliente03
+INFO 2023-03-22 13:05:28,742 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:05:28,742 - Checando quantidade de diretórios para o cliente: cliente04
+DEBUG 2023-03-22 13:05:28,742 - Checando quantidade de diretórios para o cliente: cliente04
+INFO 2023-03-22 13:05:28,744 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:05:28,744 - Checando quantidade de diretórios para o cliente: cliente05
+DEBUG 2023-03-22 13:05:28,744 - Checando quantidade de diretórios para o cliente: cliente05
+INFO 2023-03-22 13:05:28,747 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:05:28,747 - Processo de limpeza e compactação de arquivos de carga concluído
+DEBUG 2023-03-22 13:07:00,664 - Iniciando o processo de limpeza e compactação de arquivos de carga
+DEBUG 2023-03-22 13:07:00,665 - Gerando lista com comando: ls -h /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/ > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt
+DEBUG 2023-03-22 13:07:00,667 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:07:00,667 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:07:00,667 - Iniciando compactação de arquivos para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:07:00,667 - Compactando arquivos para o cliente: cliente01
+DEBUG 2023-03-22 13:07:00,667 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-21
+DEBUG 2023-03-22 13:07:00,679 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-22
+DEBUG 2023-03-22 13:07:00,690 - Compactando arquivos para o cliente: cliente02
+DEBUG 2023-03-22 13:07:00,690 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-21
+DEBUG 2023-03-22 13:07:00,702 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-22
+DEBUG 2023-03-22 13:07:00,714 - Compactando arquivos para o cliente: cliente03
+DEBUG 2023-03-22 13:07:00,714 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-21
+DEBUG 2023-03-22 13:07:00,725 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-22
+DEBUG 2023-03-22 13:07:00,735 - Compactando arquivos para o cliente: cliente04
+DEBUG 2023-03-22 13:07:00,736 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-21
+DEBUG 2023-03-22 13:07:00,745 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-22
+DEBUG 2023-03-22 13:07:00,760 - Compactando arquivos para o cliente: cliente05
+DEBUG 2023-03-22 13:07:00,761 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-21
+DEBUG 2023-03-22 13:07:00,770 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-22
+INFO 2023-03-22 13:07:00,782 - Compactação de arquivos concluída para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:07:00,782 - Checando quantidade de diretórios para o cliente: cliente01
+DEBUG 2023-03-22 13:07:00,782 - Checando quantidade de diretórios para o cliente: cliente01
+INFO 2023-03-22 13:07:00,784 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 13:07:00,785 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 13:07:00,790 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 13:07:00,790 - Deletando o diretório mínimo para o cliente: cliente01
+DEBUG 2023-03-22 13:07:00,790 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 13:07:00,793 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/*20
+DEBUG 2023-03-22 13:07:00,793 - Checando quantidade de diretórios para o cliente: cliente02
+DEBUG 2023-03-22 13:07:00,793 - Checando quantidade de diretórios para o cliente: cliente02
+INFO 2023-03-22 13:07:00,796 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 13:07:00,796 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 13:07:00,801 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 13:07:00,802 - Deletando o diretório mínimo para o cliente: cliente02
+DEBUG 2023-03-22 13:07:00,802 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 13:07:00,813 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/*20
+DEBUG 2023-03-22 13:07:00,814 - Checando quantidade de diretórios para o cliente: cliente03
+DEBUG 2023-03-22 13:07:00,814 - Checando quantidade de diretórios para o cliente: cliente03
+INFO 2023-03-22 13:07:00,816 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 13:07:00,816 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 13:07:00,820 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 13:07:00,820 - Deletando o diretório mínimo para o cliente: cliente03
+DEBUG 2023-03-22 13:07:00,820 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 13:07:00,825 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/*20
+DEBUG 2023-03-22 13:07:00,826 - Checando quantidade de diretórios para o cliente: cliente04
+DEBUG 2023-03-22 13:07:00,826 - Checando quantidade de diretórios para o cliente: cliente04
+INFO 2023-03-22 13:07:00,829 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 13:07:00,829 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 13:07:00,834 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 13:07:00,834 - Deletando o diretório mínimo para o cliente: cliente04
+DEBUG 2023-03-22 13:07:00,834 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 13:07:00,837 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/*20
+DEBUG 2023-03-22 13:07:00,837 - Checando quantidade de diretórios para o cliente: cliente05
+DEBUG 2023-03-22 13:07:00,837 - Checando quantidade de diretórios para o cliente: cliente05
+INFO 2023-03-22 13:07:00,840 - Quantidade de diretórios maior que 2: 3
+DEBUG 2023-03-22 13:07:00,840 - Gerando lista com comando: find /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/`date +%Y`* -type d -mtime -365 -ls| rev | cut -d'-' -f 1 | rev > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/qtd_dir.txt
+DEBUG 2023-03-22 13:07:00,846 - Lista de diretórios gerada: ['20', '21', '22']
+DEBUG 2023-03-22 13:07:00,846 - Deletando o diretório mínimo para o cliente: cliente05
+DEBUG 2023-03-22 13:07:00,846 - Diretório mínimo encontrado: 20
+INFO 2023-03-22 13:07:00,857 - Diretório mínimo deletado: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/*20
+DEBUG 2023-03-22 13:07:00,858 - Processo de limpeza e compactação de arquivos de carga concluído
