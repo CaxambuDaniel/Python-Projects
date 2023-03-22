@@ -10,6 +10,7 @@
 #----------------------------------------------------------------------------
 #imports
 #----------------------------------------------------------------------------
+from modules.utils import gera_lista
 import os
 import subprocess
 import string
@@ -29,6 +30,8 @@ logger.setLevel(logging.DEBUG)
 #----------------------------------------------------------------------------
 #Funcoes
 #----------------------------------------------------------------------------
+
+"""""
 def gera_lista(comando,arquivo):
     logger.debug(f'Gerando lista com comando: {comando}')
     os.system(comando)
@@ -36,7 +39,7 @@ def gera_lista(comando,arquivo):
     geralista = abre_arquivo.readlines()
     lista =[line.strip('\n').strip() for line in geralista]
     return lista
-
+"""
 def gera_lista_clientes():
     lista_clientes = gera_lista("ls -h /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/ > /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt","/workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/listas/clientes.txt") 
     logger.debug(f'Lista de clientes gerada: {lista_clientes}')
