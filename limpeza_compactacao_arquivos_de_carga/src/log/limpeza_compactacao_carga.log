@@ -198,3 +198,75 @@ INFO 2023-03-22 11:45:13 - Quantidade de diretórios dentro do limite: 2
 INFO 2023-03-22 11:45:13 - Quantidade de diretórios dentro do limite: 2
 DEBUG 2023-03-22 11:45:13 - Processo de limpeza e compactação de arquivos de carga concluído
 DEBUG 2023-03-22 11:45:13 - Processo de limpeza e compactação de arquivos de carga concluído
+DEBUG 2023-03-22 13:38:30 - Iniciando o processo de limpeza e compactação de arquivos de carga
+DEBUG 2023-03-22 13:38:30 - Iniciando o processo de limpeza e compactação de arquivos de carga
+DEBUG 2023-03-22 13:38:30 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:38:30 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:38:30 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:38:30 - Lista de clientes gerada: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:38:30 - Iniciando compactação de arquivos para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:38:30 - Iniciando compactação de arquivos para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente01
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente01
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-22
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente01/2023-03-22
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente02
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente02
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-22
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente02/2023-03-22
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente03
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente03
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-22
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente03/2023-03-22
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente04
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente04
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-22
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente04/2023-03-22
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente05
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos para o cliente: cliente05
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de ontem: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-21
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-22
+DEBUG 2023-03-22 13:38:30 - Compactando arquivos no diretório de hoje: /workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/tests/clientes/cliente05/2023-03-22
+INFO 2023-03-22 13:38:30 - Compactação de arquivos concluída para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+INFO 2023-03-22 13:38:30 - Compactação de arquivos concluída para a lista de clientes: ['cliente01', 'cliente02', 'cliente03', 'cliente04', 'cliente05']
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente01
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente01
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente01
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente01
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente02
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente02
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente02
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente02
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente03
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente03
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente03
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente03
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente04
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente04
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente04
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente04
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente05
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente05
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente05
+DEBUG 2023-03-22 13:38:30 - Checando quantidade de diretórios para o cliente: cliente05
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+INFO 2023-03-22 13:38:30 - Quantidade de diretórios dentro do limite: 2
+DEBUG 2023-03-22 13:38:30 - Processo de limpeza e compactação de arquivos de carga concluído
+DEBUG 2023-03-22 13:38:30 - Processo de limpeza e compactação de arquivos de carga concluído
