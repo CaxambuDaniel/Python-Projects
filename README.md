@@ -15,4 +15,5 @@ Este projeto contém dois jogos simples desenvolvidos em Python: Jogo da Forca e
 # Notebooks do google colab voltados para o estudo de Datascience 
 ## python_para_datascience
 
-Projeto voltado para o desenvolvimento de tecnicas envolvendo extração, limpeza, estudo e exibição de dados em ferramentas OLAP
+Projeto voltado para o desenvolvimento de tecnicas envolvendo extração, limpeza, estudo e exibição de dados em ferramentas OLAP. mais detalhes em: https://github.com/CaxambuDaniel/Portifolio_DataAnalist.git
+
