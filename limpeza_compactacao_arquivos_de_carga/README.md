@@ -10,25 +10,25 @@ Este projeto tem como objetivo realizar a limpeza e compactação de arquivos de
         - main.py
 
         - modules/
-        	- logger_config.py
-        	- utils.py      
-        	- client_operations.py
-        	- README.md   
+             - logger_config.py
+             - utils.py      
+             - client_operations.py
+             - README.md   
         - listas/
-            	- clientes.txt
-            	- qtd_dir.txt
-            	- README.md
+            - clientes.txt
+            - qtd_dir.txt
+            - README.md
 
     - tests/
         - gera_estrutura_de_diretorios.py
         - README.md
         - clientes/
-            - cliente01/
-            - cliente02/
-            - cliente03/
+             - cliente01/
+             - cliente02/
+             - cliente03/
 
     - logs/
-        - limpeza_compactacao_carga.log
+         - limpeza_compactacao_carga.log
 
     - .gitignore
 
