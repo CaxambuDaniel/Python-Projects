@@ -1,10 +1,14 @@
 import random
 
 def mensagem_inicio():
+    # Imprime a mensagem inicial do jogo da forca
     print("*********************************")
     print("***Bem vindo ao jogo da Forca!***")
     print("*********************************")
+
 def carrega_palavra_secreta():
+    # Carrega palavras de um arquivo de texto chamado 'palavras.txt'
+    # e escolhe uma palavra aleatória do arquivo como a palavra secreta
 
     with open('palavras.txt', 'r') as arquivo:
         palavras =[]
@@ -15,18 +19,26 @@ def carrega_palavra_secreta():
     numero = random.randrange(0,len(palavras))
     palavra_secreta = palavras[numero].upper()
     return palavra_secreta
+
 def inicializa_letras_acertadas(palavra):
+    # Cria uma lista contendo '_' para cada letra na palavra secreta
     return ['_' for letra in palavra]
+
 def pede_chute():
+    # Solicita ao usuário um palpite e retorna a letra em maiúsculas
     chute = input('Qual a letra? ').strip().upper()
     return chute
+
 def chute_correto(chute, letras_acertadas, palavra_secreta):
+    # Atualiza a lista de letras acertadas com o chute correto do usuário
     index = 0
     for letra in palavra_secreta:
         if (chute == letra):
             letras_acertadas[index] = letra
         index += 1
+        
 def imprime_mensagem_perdedor(palavra_secreta):
+# Imprime a mensagem e desenho de enforcado se o usuário perder o jogo
     print("Puxa, você foi enforcado!")
     print("A palavra era {}".format(palavra_secreta))
     print("    _______________         ")
@@ -46,6 +58,7 @@ def imprime_mensagem_perdedor(palavra_secreta):
     print("     \_         _/         ")
     print("       \_______/           ")
 def imprime_mensagem_vencedor():
+# Imprime a mensagem e desenho de vencedor se o usuário ganhar o jogo
     print("Parabéns, você ganhou!")
     print("       ___________      ")
     print("      '._==_==_=_.'     ")
@@ -58,6 +71,7 @@ def imprime_mensagem_vencedor():
     print("         _.' '._        ")
     print("        '-------'       ")
 def desenha_forca(erros):
+# Desenha a forca com base no número de erros
     print("  _______     ")
     print(" |/      |    ")
 
@@ -108,6 +122,7 @@ def desenha_forca(erros):
     print()
 
 def jogar():
+# Função principal do jogo
 
     mensagem_inicio()
     palavra_secreta = carrega_palavra_secreta()
