@@ -16,7 +16,6 @@ O projeto possui a seguinte estrutura de diretórios:
   - jogos.py
   - README.md
 
-
 ## Requisitos
 
 Python 3.x
