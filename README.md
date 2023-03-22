@@ -1,9 +1,14 @@
 # create_project.sh
-# Script de criação de projeto para GitHub Codespaces
+## Script de criação de projeto para GitHub Codespaces
 
 Este script shell cria uma estrutura de diretórios e arquivos para um novo projeto no GitHub Codespaces. O arquivo README_create_project explica cpm maiores detalhes suas funções
 
 # convert_csv_to_gsheet
-# Google Sheets API - CSV to Google Sheets
+## Google Sheets API - CSV to Google Sheets
 
 Este projeto demonstra como utilizar a Google Sheets API para ler dados de um arquivo CSV e exportá-los para uma planilha do Google Sheets.
+
+# Jogos em Python
+## jogos
+Este projeto contém dois jogos simples desenvolvidos em Python: Jogo da Forca e Jogo de Adivinhação. Ambos os jogos podem ser executados a partir do arquivo jogos.py.
+
