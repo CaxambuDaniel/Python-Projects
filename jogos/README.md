@@ -6,17 +6,16 @@ Este projeto contém dois jogos simples desenvolvidos em Python: Jogo da Forca e
 
 O projeto possui a seguinte estrutura de diretórios:
 
-lua
-Copy code
-jogos/
-|-- forca/
-|   |-- __init__.py
-|   |-- jogo_forca.py
-|-- adivinhacao/
-|   |-- __init__.py
-|   |-- jogo_adivinhacao.py
-|-- jogos.py
-|-- README.md
+- jogos/
+  - forca/
+    - __init__.py
+    - jogo_forca.py
+  - adivinhacao/
+    - __init__.py
+    - jogo_adivinhacao.py
+  - jogos.py
+  - README.md
+
 
 ## Requisitos
 
