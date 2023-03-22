@@ -6,7 +6,7 @@ Este projeto é uma implementação do clássico jogo da forca em Python.
 Python 3.x
 
 ## Estrutura do código
-## O código possui várias funções:
+### O código possui várias funções:
 
 1. mensagem_inicio(): Imprime a mensagem inicial do jogo da forca.
 
