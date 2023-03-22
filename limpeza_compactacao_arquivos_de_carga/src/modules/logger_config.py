@@ -24,7 +24,7 @@ def configure_logger():
     formatter = BrasiliaTimeFormatter(log_format)
     
     # Define o caminho e o nome do arquivo de log.
-    log_file = "/workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/src/log/limpeza_compactacao_carga.log"
+    log_file = "/workspaces/Projetos_Python/limpeza_compactacao_arquivos_de_carga/log/limpeza_compactacao_carga.log"
     
     # Cria um manipulador de log que rotaciona o arquivo de log à meia-noite.
     handler = TimedRotatingFileHandler(log_file, when="midnight")
