@@ -17,3 +17,5 @@ Este projeto contém dois jogos simples desenvolvidos em Python: Jogo da Forca e
 
 Projeto voltado para o desenvolvimento de tecnicas envolvendo extração, limpeza, estudo e exibição de dados em ferramentas OLAP. mais detalhes em: https://github.com/CaxambuDaniel/Portifolio_DataAnalist.git
 
+# Limpeza e Compactação de Arquivos de Carga
+Este projeto tem como objetivo realizar a limpeza e compactação de arquivos de carga para diversos clientes. O processo consiste em gerar uma lista de clientes, compactar os arquivos de carga e verificar a quantidade de diretórios de cada cliente.
