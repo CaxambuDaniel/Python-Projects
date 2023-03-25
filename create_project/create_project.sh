@@ -11,5 +11,5 @@ fi
 REPO_ROOT="/workspaces/Projetos_Python/"
 
 # Cria a estrutura de diretórios e arquivos para o projeto
-mkdir -p "$REPO_ROOT/$1/src/modules" "$REPO_ROOT/$1/tests"
-touch "$REPO_ROOT/$1/src/main.py" "$REPO_ROOT/$1/src/modules/__init__.py" "$REPO_ROOT/$1/src/modules/module1.py" "$REPO_ROOT/$1/src/modules/module2.py" "$REPO_ROOT/$1/tests/test_module1.py" "$REPO_ROOT/$1/tests/test_module2.py" "$REPO_ROOT/$1/README.md" "$REPO_ROOT/$1/requirements.txt"
+mkdir -p "$REPO_ROOT/$1/src/modules" "$REPO_ROOT/$1/tests" "$REPO_ROOT/$1/log"
+touch "$REPO_ROOT/$1/src/main.py" "$REPO_ROOT/$1/src/modules/__init__.py" "$REPO_ROOT/$1/src/modules/module1.py" "$REPO_ROOT/$1/src/modules/module2.py" "$REPO_ROOT/$1/tests/test_module1.py" "$REPO_ROOT/$1/tests/test_module2.py" "$REPO_ROOT/$1/log/log_file.log" "$REPO_ROOT/$1/README.md" "$REPO_ROOT/$1/requirements.txt" 
