@@ -42,6 +42,8 @@ A estrutura de diretórios e arquivos criada pelo script é a seguinte:
     - tests/
       - test_module1.py
       - test_module2.py
+    - log/
+      - log_file.log  
 
 - `README.md`: um arquivo que descreve o projeto, sua finalidade e como usá-lo.
 
@@ -65,4 +67,8 @@ A estrutura de diretórios e arquivos criada pelo script é a seguinte:
 
   - `test_module2.py`: outro arquivo que contém testes para o módulo `module2.py`.
 
+- `log/`: um diretório que contem os registros de log do projeto.
+
+  - `log_file.log`: um arquivo que armazena os registros de log do projeto 
+   
 Este script é uma forma simples e rápida de começar um novo projeto Python no GitHub Codespaces. Sinta-se à vontade para adaptar a estrutura de diretórios e arquivos criada pelo script às necessidades do seu projeto.
