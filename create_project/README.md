@@ -29,22 +29,19 @@ Este comando criará a estrutura de diretórios e arquivos correspondente ao nom
 
 A estrutura de diretórios e arquivos criada pelo script é a seguinte:
 
-nome_do_projeto/
-│
-├── README.md
-│
-├── requirements.txt
-│
-├── src/
-│ ├── main.py
-│ └── modules/
-│ ├── init.py
-│ ├── module1.py
-│ └── module2.py
-│
-└── tests/
-├── test_module1.py
-└── test_module2.py
+- nome_do_projeto/
+
+    - README.md
+    - requirements.txt
+    - src/
+      - main.py
+      - modules/
+        - init.py
+        - module1.py
+        - module2.py
+    - tests/
+      - test_module1.py
+      - test_module2.py
 
 - `README.md`: um arquivo que descreve o projeto, sua finalidade e como usá-lo.
 
