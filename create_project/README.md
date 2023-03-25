@@ -2,6 +2,11 @@
 
 Este script shell cria uma estrutura de diretórios e arquivos para um novo projeto no GitHub Codespaces.
 
+## Pré-requisitos
+
+Certifique-se de que o diretório /workspaces/Projetos_Python/ exista e que você tenha permissão para criar diretórios e arquivos nele. Caso o caminho do repositório seja diferente, atualize a variável REPO_ROOT no script para refletir o caminho correto.
+
+
 ## Como usar
 
 1. Clone este repositório em seu GitHub Codespaces.
